@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Upside down text",
+    "version": "1.0",
+    "description": "Turn all the text on the page upside down",
+    "content_scripts": [
+    {
+      "js": ["scripts/upside_down.js"],
+      "matches": [
+        "https://*/*"
+      ]
+    }
+  ]
+}
